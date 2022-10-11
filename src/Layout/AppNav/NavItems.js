@@ -1,13 +1,13 @@
 export const MainNav = [
     {
-        icon: 'pe-7s-rocket',
+        icon: 'pe-7s-car',
         label: 'Dashboard Example',
         to: '#/dashboards/basic',
     },
 ];
 export const ComponentsNav = [
     {
-        icon: 'pe-7s-diamond',
+        icon: 'pe-7s-car',
         label: 'Elements',
         content: [
             {
@@ -80,38 +80,38 @@ export const ComponentsNav = [
         ],
     },
     {
-        icon: 'pe-7s-display2',
+        icon: 'pe-7s-car',
         label: 'Regular Tables',
         to: '#/tables/regular-tables',
     },
 ];
 export const FormsNav = [
     {
-        icon: 'pe-7s-light',
+        icon: 'pe-7s-car',
         label: 'Controls',
         to: '#/forms/controls',
     },
     {
-        icon: 'pe-7s-eyedropper',
+        icon: 'pe-7s-car',
         label: 'Layouts',
         to: '#/forms/layouts',
     },
     {
-        icon: 'pe-7s-pendrive',
+        icon: 'pe-7s-car',
         label: 'Validation',
         to: '#/forms/validation',
     },
 ];
 export const WidgetsNav = [
     {
-        icon: 'pe-7s-graph2',
+        icon: 'pe-7s-car',
         label: 'Dashboard Boxes',
         to: '#/widgets/dashboard-boxes',
     },
 ];
 export const ChartsNav = [
     {
-        icon: 'pe-7s-graph2',
+        icon: 'pe-7s-car',
         label: 'ChartJS',
         to: '#/charts/chartjs',
     },

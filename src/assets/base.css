@@ -11083,7 +11083,7 @@ button,
 .app-header__logo .logo-src {
   height: 23px;
   width: 97px;
-  background: url("utils/images/logo-inverse.png");
+  background: url("utils/images/logo.png");
 }
 
 .app-header__menu,
@@ -12640,7 +12640,7 @@ button,
 }
 
 .bg-strong-bliss {
-  background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%) !important;
+  background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(251,251,255,1) 0%, rgba(88,214,82,1) 0%, rgba(119,136,117,1) 69%, rgba(21,23,23,1) 92%) !important;
 }
 
 .bg-grow-early {

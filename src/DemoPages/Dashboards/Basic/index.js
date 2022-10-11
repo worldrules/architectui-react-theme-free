@@ -120,7 +120,7 @@ export default class AnalyticsDashboard1 extends Component {
                                     <Card className="mb-3">
                                         <CardHeader className="card-header-tab">
                                             <div className="card-header-title">
-                                                <i className="header-icon lnr-rocket icon-gradient bg-tempting-azure"> </i>
+                                                <i className="header-icon lnr-car icon-gradient bg-tempting-azure"> </i>
                                                 Bandwidth Reports
                                             </div>
                                             <div className="btn-actions-pane-right">
@@ -128,12 +128,12 @@ export default class AnalyticsDashboard1 extends Component {
                                                         className={"border-0 btn-pill btn-wide btn-transition " + classnames({active: this.state.activeTab1 === '11'})}
                                                         color="primary" onClick={() => {
                                                     this.toggle1('11');
-                                                }}>Tab 1</Button>
+                                                }}>Monitoramento</Button>
                                                 <Button outline
                                                         className={"ms-1 btn-pill btn-wide border-0 btn-transition " + classnames({active: this.state.activeTab1 === '22'})}
                                                         color="primary" onClick={() => {
                                                     this.toggle1('22');
-                                                }}>Tab 2</Button>
+                                                }}>Consumo</Button>
                                             </div>
                                         </CardHeader>
                                         <TabContent activeTab={this.state.activeTab1}>
@@ -146,12 +146,12 @@ export default class AnalyticsDashboard1 extends Component {
                                                                     <div className="widget-content-wrapper">
                                                                         <div className="widget-content-left me-3">
                                                                             <div className="widget-numbers fsize-3 text-muted">
-                                                                                63%
+                                                                                3%
                                                                             </div>
                                                                         </div>
                                                                         <div className="widget-content-right">
                                                                             <div className="text-muted opacity-6">
-                                                                                Generated Leads
+                                                                                Carregadores Inativos
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -159,7 +159,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                                         <Progress
                                                                             className="progress-bar-sm progress-bar-animated-alt"
                                                                             color="danger"
-                                                                            value="63"/>
+                                                                            value="3"/>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -175,7 +175,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                                         </div>
                                                                         <div className="widget-content-right">
                                                                             <div className="text-muted opacity-6">
-                                                                                Submitted Tickers
+                                                                                Carregadores sendo Utilizados
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -202,7 +202,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                                         </div>
                                                                         <div className="widget-content-right">
                                                                             <div className="text-muted opacity-6">
-                                                                                Server Allocation
+                                                                                Regiões Ocupadas
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -226,7 +226,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                                         </div>
                                                                         <div className="widget-content-right">
                                                                             <div className="text-muted opacity-6">
-                                                                                Generated Leads
+                                                                                Carregadores Instáveis
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -246,7 +246,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                         <div className="widget-description mt-0 text-warning">
                                                             <FontAwesomeIcon icon={faArrowLeft}/>
                                                             <span className="ps-1">175.5%</span>
-                                                            <span className="text-muted opacity-8 ps-1">increased server resources</span>
+                                                            <span className="text-muted opacity-8 ps-1">Aumento de energia gerada</span>
                                                         </div>
                                                     </div>
                                                     <ResponsiveContainer height={187}>
