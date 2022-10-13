@@ -82,7 +82,7 @@
   },
   "scripts": {
     "start": "react start",
-    "build": "react build",
+    "build": "react run build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
