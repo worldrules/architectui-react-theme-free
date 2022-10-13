@@ -111,8 +111,8 @@ export default class AnalyticsDashboard1 extends Component {
                         exit={false}>
                         <div>
                             <PageTitle
-                                heading="Basic Dashboard"
-                                subheading="This is an example dashboard created using build-in elements and components."
+                                heading="Monitoramento Zletric"
+                                subheading="Monitoramento de carregadores e gestão de utilização"
                                 icon="pe-7s-car icon-gradient bg-mean-fruit"
                             />
                             <Row>
@@ -121,7 +121,7 @@ export default class AnalyticsDashboard1 extends Component {
                                         <CardHeader className="card-header-tab">
                                             <div className="card-header-title">
                                                 <i className="header-icon lnr-car icon-gradient bg-tempting-azure"> </i>
-                                                Bandwidth Reports
+                                                Estatísticas
                                             </div>
                                             <div className="btn-actions-pane-right">
                                                 <Button outline
@@ -278,7 +278,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                         <div className="widget-description mt-0 text-success">
                                                             <FontAwesomeIcon icon={faArrowUp}/>
                                                             <span className="ps-2 pe-2">37.2%</span>
-                                                            <span className="text-muted opacity-8">performance increase</span>
+                                                            <span className="text-muted opacity-8">Aumento de performance</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -295,7 +295,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                                         </div>
                                                                         <div className="widget-content-right">
                                                                             <div className="text-muted opacity-6">
-                                                                                Deploys
+                                                                                Custo
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -319,7 +319,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                                         </div>
                                                                         <div className="widget-content-right">
                                                                             <div className="text-muted opacity-6">
-                                                                                Traffic
+                                                                                Trafégo
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -346,7 +346,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                                         </div>
                                                                         <div className="widget-content-right">
                                                                             <div className="text-muted opacity-6">
-                                                                                Servers Load
+                                                                                Total CO2 Poupado
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -370,7 +370,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                                         </div>
                                                                         <div className="widget-content-right">
                                                                             <div className="text-muted opacity-6">
-                                                                                Reported Bugs
+                                                                                Chamados atentidos 0800
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -401,7 +401,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                         45.8k
                                                     </div>
                                                     <div className="widget-subheading">
-                                                        Total Views
+                                                        Total de Carregamentos
                                                     </div>
                                                     <div className="widget-description text-success">
                                                         <FontAwesomeIcon icon={faAngleUp}/>
@@ -430,7 +430,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                         5.82k
                                                     </div>
                                                     <div className="widget-subheading">
-                                                        Reports Submitted
+                                                        Estações Utilizadas
                                                     </div>
                                                     <div className="widget-description text-danger">
                                                         <FontAwesomeIcon icon={faAngleDown}/>
@@ -460,7 +460,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                     87,4
                                                 </div>
                                                 <div className="widget-subheading">
-                                                    Reports Generated
+                                                    Gráficos Gerados
                                                 </div>
                                                 <div className="widget-description text-white">
                                                     <FontAwesomeIcon icon={faAngleUp}/>
@@ -478,7 +478,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                     17.2k
                                                 </div>
                                                 <div className="widget-subheading">
-                                                    Profiles
+                                                    Usuários
                                                 </div>
                                                 <div className="widget-description text-white">
                                                     <span className="pe-1">62,7%</span>
@@ -496,7 +496,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                     63.2k
                                                 </div>
                                                 <div className="widget-subheading">
-                                                    Bugs Fixed
+                                                    Chamados Resolvidos
                                                 </div>
                                                 <div className="widget-description text-white">
                                                     <FontAwesomeIcon icon={faArrowRight}/>
@@ -515,7 +515,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                         45.8k
                                                     </div>
                                                     <div className="widget-subheading">
-                                                        Total Views
+                                                        Total Carregamentos
                                                     </div>
                                                     <div className="widget-description">
                                                         <FontAwesomeIcon className="text-white opacity-5" icon={faAngleUp}/>
@@ -540,18 +540,18 @@ export default class AnalyticsDashboard1 extends Component {
                                                 <i className="lnr-heart icon-gradient bg-premium-dark"> </i>
                                             </div>
                                             <div className="widget-numbers">
-                                                4517.82
+                                                321
                                             </div>
                                             <div className="widget-subheading">
-                                                Active Social Profiles
+                                                Reclamações
                                             </div>
                                             <div className="widget-description">
-                                                Down by
+                                                Reduzido em
                                                 <span className="text-danger ps-1 pe-1">
                                                     <FontAwesomeIcon icon={faAngleDown}/>
                                                     <span className="ps-1">54.1%</span>
                                                 </span>
-                                                from 30 days ago
+                                                nos ultimos 30 dias
                                             </div>
                                         </div>
                                         <div className="widget-chart-wrapper chart-wrapper-relative">
@@ -582,7 +582,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                     </div>
                                                 </div>
                                                 <div className="widget-content-left fsize-1">
-                                                    <div className="text-muted opacity-6">Income Target</div>
+                                                    <div className="text-muted opacity-6">Energia Utilizada</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -603,7 +603,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                     </div>
                                                 </div>
                                                 <div className="widget-content-left fsize-1">
-                                                    <div className="text-muted opacity-6">Expenses Target</div>
+                                                    <div className="text-muted opacity-6">Energia Poupada</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -624,7 +624,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                     </div>
                                                 </div>
                                                 <div className="widget-content-left fsize-1">
-                                                    <div className="text-muted opacity-6">Spendings Target</div>
+                                                    <div className="text-muted opacity-6">Gastos Envolvidos</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -645,7 +645,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                     </div>
                                                 </div>
                                                 <div className="widget-content-left fsize-1">
-                                                    <div className="text-muted opacity-6">Totals Target</div>
+                                                    <div className="text-muted opacity-6">Redes Utilizadas</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -655,11 +655,11 @@ export default class AnalyticsDashboard1 extends Component {
                             <Row>
                                 <Col md="12">
                                     <Card className="main-card mb-3">
-                                        <div className="card-header">Active Users
+                                        <div className="card-header">Usuários Ativos
                                             <div className="btn-actions-pane-right">
                                                 <div role="group" className="btn-group-sm btn-group">
-                                                    <button className="active btn btn-info">Last Week</button>
-                                                    <button className="btn btn-info">All Month</button>
+                                                    <button className="active btn btn-info">Última semana</button>
+                                                    <button className="btn btn-info">Todo Mês</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -669,9 +669,9 @@ export default class AnalyticsDashboard1 extends Component {
                                                 <tr>
                                                     <th className="text-center">#</th>
                                                     <th>Name</th>
-                                                    <th className="text-center">City</th>
+                                                    <th className="text-center">Cidade</th>
                                                     <th className="text-center">Status</th>
-                                                    <th className="text-center">Actions</th>
+                                                    <th className="text-center">Carregamentos</th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
@@ -694,10 +694,10 @@ export default class AnalyticsDashboard1 extends Component {
                                                     </td>
                                                     <td className="text-center">Madrid</td>
                                                     <td className="text-center">
-                                                        <div className="badge bg-warning">Pending</div>
+                                                        <div className="badge bg-warning">Pendente</div>
                                                     </td>
                                                     <td className="text-center">
-                                                        <button type="button" className="btn btn-primary btn-sm">Details</button>
+                                                        <button type="button" className="btn btn-primary btn-sm">Detalhes</button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -719,10 +719,10 @@ export default class AnalyticsDashboard1 extends Component {
                                                     </td>
                                                     <td className="text-center">Berlin</td>
                                                     <td className="text-center">
-                                                        <div className="badge bg-success">Completed</div>
+                                                        <div className="badge bg-success">Completo</div>
                                                     </td>
                                                     <td className="text-center">
-                                                        <button type="button" className="btn btn-primary btn-sm">Details</button>
+                                                        <button type="button" className="btn btn-primary btn-sm">Detalhes</button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -744,10 +744,10 @@ export default class AnalyticsDashboard1 extends Component {
                                                     </td>
                                                     <td className="text-center">London</td>
                                                     <td className="text-center">
-                                                        <div className="badge bg-danger">In Progress</div>
+                                                        <div className="badge bg-danger">Em Progresso</div>
                                                     </td>
                                                     <td className="text-center">
-                                                        <button type="button" className="btn btn-primary btn-sm">Details</button>
+                                                        <button type="button" className="btn btn-primary btn-sm">Detalhes</button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -768,10 +768,10 @@ export default class AnalyticsDashboard1 extends Component {
                                                     </td>
                                                     <td className="text-center">Amsterdam</td>
                                                     <td className="text-center">
-                                                        <div className="badge bg-info">On Hold</div>
+                                                        <div className="badge bg-info">Carregando</div>
                                                     </td>
                                                     <td className="text-center">
-                                                        <button type="button" className="btn btn-primary btn-sm">Details</button>
+                                                        <button type="button" className="btn btn-primary btn-sm">Detalhes</button>
                                                     </td>
                                                 </tr>
                                                 </tbody>
@@ -779,7 +779,7 @@ export default class AnalyticsDashboard1 extends Component {
                                         </div>
                                         <div className="d-block text-center card-footer">
                                             <button className="me-2 btn-icon btn-icon-only btn btn-outline-danger"><i className="pe-7s-trash btn-icon-wrapper"> </i></button>
-                                            <button className="btn-wide btn btn-success">Save</button>
+                                            <button className="btn-wide btn btn-success">Salvar</button>
                                         </div>
                                     </Card>
                                 </Col>

@@ -92,6 +92,10 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+logoZ {
+  margin: auto;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -11083,7 +11087,7 @@ button,
 .app-header__logo .logo-src {
   height: 23px;
   width: 97px;
-  background: url("utils/images/logo.png");
+  background: url("utils/images/logo.svg");
 }
 
 .app-header__menu,
@@ -11277,7 +11281,7 @@ button,
   background: rgba(255, 255, 255, 0.8) !important;
 }
 .app-header.header-text-light .app-header__logo .logo-src {
-  background: url("utils/images/logo.png");
+  background: url("utils/images/logo.svg");
 }
 .app-header.header-text-light .app-header__mobile-menu .BurgerInner,
 .app-header.header-text-light .app-header__mobile-menu .BurgerInner::before,
@@ -11575,7 +11579,7 @@ button,
   background: rgba(255, 255, 255, 0.2);
 }
 .app-sidebar.sidebar-text-light .app-header__logo .logo-src {
-  background: url("utils/images/logo.png");
+  background: url("utils/images/logo.svg");
 }
 .app-sidebar.sidebar-text-light .app-header__logo .BurgerInner,
 .app-sidebar.sidebar-text-light .app-header__logo .BurgerInner::before,
@@ -17867,7 +17871,7 @@ legend {
 .app-logo-inverse {
   height: 23px;
   width: 97px;
-  background: url("utils/images/logo.png");
+  background: url("utils/images/logo.svg");
 }
 
 .app-login-box .app-logo {

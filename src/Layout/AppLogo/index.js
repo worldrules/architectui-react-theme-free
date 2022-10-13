@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import {connect} from 'react-redux';
-
 import { Slider } from "react-burgers";
+import logo from "../../assets/utils/images/logo.png";
 
 import AppMobileMenu from '../AppMobileMenu';
 
@@ -41,6 +41,7 @@ class HeaderLogo extends React.Component {
             enableClosedSidebar,
         } = this.props;
 
+        // eslint-disable-next-line no-empty-pattern
         const {
         } = this.state;
 
@@ -48,6 +49,7 @@ class HeaderLogo extends React.Component {
             <Fragment>
                 <div className="app-header__logo">
                     <div className="logo"/>
+                    <img className="logoZ" width={100} height={50} src={logo} alt='logo'></img>
                     <div className="header__pane ms-auto">
                         <div onClick={this.toggleEnableClosedSidebar}>
                             <Slider
