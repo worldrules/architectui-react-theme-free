@@ -21,15 +21,19 @@ export default class TableResponsive extends React.Component {
         <tbody>
           <tr>
             <th scope="row">981</th>
-            <td>ENEL34</td> {/*ID String */}
-            <td>Cond Vista Faria Lima 4</td> {/*Titulo */}
-            <td>ENELX</td> {/*Protocolo */}
-            <td>Disponível</td> {/*Status */}
-            <td>1,99</td> {/*Taxa */}
-            <td>Oscioso</td> {/*Carregando */}
-            <td>22-10-11 14:10:22</td> {/*Ultima conexao */}
-            <td><button class="pe-7s-help1 icon bg-night-fade"> </button></td> {/*Açoes */}
-            <td><button class="pe-7s-menu icon bg-night-fade"> </button></td> {/*Açoes */}
+            <td>ENEL34</td>
+            <td>Cond Vista Faria Lima 4</td>
+            <td>ENELX</td>
+            <td>Disponível</td>
+            <td>1,99</td>
+            <td>Oscioso</td>
+            <td>22-10-11 14:10:22</td>
+            <td>
+              <button class="pe-7s-help1 icon bg-night-fade"> </button>
+            </td>
+            <td>
+              <button class="pe-7s-menu icon bg-night-fade"> </button>
+            </td>
           </tr>
           <tr>
             <th scope="row">960</th>
@@ -40,8 +44,12 @@ export default class TableResponsive extends React.Component {
             <td>1,99</td>
             <td>Oscioso</td>
             <td>22-10-11 14:10:22</td>
-            <td><button class="pe-7s-help1 icon bg-night-fade"> </button></td> {/*Açoes */}
-            <td><button class="pe-7s-menu icon bg-night-fade"> </button></td> {/*Açoes */}
+            <td>
+              <button class="pe-7s-help1 icon bg-night-fade"> </button>
+            </td>
+            <td>
+              <button class="pe-7s-menu icon bg-night-fade"> </button>
+            </td>
           </tr>
           <tr>
             <th scope="row">60</th>
@@ -52,8 +60,12 @@ export default class TableResponsive extends React.Component {
             <td>1,99</td>
             <td>Oscioso</td>
             <td>22-10-11 14:10:22</td>
-            <td><button class="pe-7s-help1 icon bg-night-fade"> </button></td> {/*Açoes */}
-            <td><button class="pe-7s-menu icon bg-night-fade"> </button></td> {/*Açoes */}
+            <td>
+              <button class="pe-7s-help1 icon bg-night-fade"> </button>
+            </td>
+            <td>
+              <button class="pe-7s-menu icon bg-night-fade"> </button>
+            </td>
           </tr>
           <tr>
             <th scope="row">531</th>
@@ -64,8 +76,12 @@ export default class TableResponsive extends React.Component {
             <td>1,99</td>
             <td>Oscioso</td>
             <td>22-10-11 14:10:22</td>
-            <td><button class="pe-7s-help1 icon bg-night-fade"> </button></td> {/*Açoes */}
-            <td><button class="pe-7s-menu icon bg-night-fade"> </button></td> {/*Açoes */}
+            <td>
+              <button class="pe-7s-help1 icon bg-night-fade"> </button>
+            </td>
+            <td>
+              <button class="pe-7s-menu icon bg-night-fade"> </button>
+            </td>
           </tr>
           <tr>
             <th scope="row">912</th>
@@ -76,8 +92,13 @@ export default class TableResponsive extends React.Component {
             <td>1,99</td>
             <td>Oscioso</td>
             <td>22-10-11 14:10:22</td>
-            <td><button class="pe-7s-help1 icon bg-night-fade"> </button></td> {/*Açoes */}
-            <td><button class="pe-7s-menu icon bg-night-fade"> </button></td> {/*Açoes */}          </tr>
+            <td>
+              <button class="pe-7s-help1 icon bg-night-fade"> </button>
+            </td>
+            <td>
+              <button class="pe-7s-menu icon bg-night-fade"> </button>
+            </td>
+          </tr>
           <tr>
             <th scope="row">981</th>
             <td>ENEL17</td>
@@ -87,8 +108,13 @@ export default class TableResponsive extends React.Component {
             <td>1,99</td>
             <td>Oscioso</td>
             <td>22-10-11 14:10:22</td>
-            <td><button class="pe-7s-help1 icon bg-night-fade"> </button></td> {/*Açoes */}
-            <td><button class="pe-7s-menu icon bg-night-fade"> </button></td> {/*Açoes */}          </tr>
+            <td>
+              <button class="pe-7s-help1 icon bg-night-fade"> </button>
+            </td>
+            <td>
+              <button class="pe-7s-menu icon bg-night-fade"> </button>
+            </td>
+          </tr>
           <tr>
             <th scope="row">653</th>
             <td>ENEL18</td>
@@ -98,8 +124,13 @@ export default class TableResponsive extends React.Component {
             <td>1,99</td>
             <td>Oscioso</td>
             <td>22-10-11 14:10:22</td>
-            <td><button class="pe-7s-help1 icon bg-night-fade"> </button></td> {/*Açoes */}
-            <td><button class="pe-7s-menu icon bg-night-fade"> </button></td> {/*Açoes */}          </tr>
+            <td>
+              <button class="pe-7s-help1 icon bg-night-fade"> </button>
+            </td>
+            <td>
+              <button class="pe-7s-menu icon bg-night-fade"> </button>
+            </td>
+          </tr>
           <tr>
             <th scope="row">391</th>
             <td>ENEL19</td>
@@ -109,8 +140,13 @@ export default class TableResponsive extends React.Component {
             <td>1,99</td>
             <td>Oscioso</td>
             <td>22-10-11 14:10:22</td>
-            <td><button class="pe-7s-help1 icon bg-night-fade"> </button></td> {/*Açoes */}
-            <td><button class="pe-7s-menu icon bg-night-fade"> </button></td> {/*Açoes */}          </tr>
+            <td>
+              <button class="pe-7s-help1 icon bg-night-fade"> </button>
+            </td>
+            <td>
+              <button class="pe-7s-menu icon bg-night-fade"> </button>
+            </td>
+          </tr>
           <tr>
             <th scope="row">341</th>
             <td>ENEL24</td>
@@ -120,8 +156,13 @@ export default class TableResponsive extends React.Component {
             <td>1</td>
             <td>Oscioso</td>
             <td>22-10-11 14:10:22</td>
-            <td><button class="pe-7s-help1 icon bg-night-fade"> </button></td> {/*Açoes */}
-            <td><button class="pe-7s-menu icon bg-night-fade"> </button></td> {/*Açoes */}          </tr>
+            <td>
+              <button class="pe-7s-help1 icon bg-night-fade"> </button>
+            </td>
+            <td>
+              <button class="pe-7s-menu icon bg-night-fade"> </button>
+            </td>
+          </tr>
           <tr>
             <th scope="row">300</th>
             <td>ENEL10</td>
@@ -131,8 +172,13 @@ export default class TableResponsive extends React.Component {
             <td>1</td>
             <td>Oscioso</td>
             <td>22-10-11 14:10:22</td>
-            <td><button class="pe-7s-help1 icon bg-night-fade"> </button></td> {/*Açoes */}
-            <td><button class="pe-7s-menu icon bg-night-fade"> </button></td> {/*Açoes */}          </tr>
+            <td>
+              <button class="pe-7s-help1 icon bg-night-fade"> </button>
+            </td>
+            <td>
+              <button class="pe-7s-menu icon bg-night-fade"> </button>
+            </td>
+          </tr>
           <tr>
             <th scope="row">325</th>
             <td>ENEL11</td>
@@ -142,8 +188,13 @@ export default class TableResponsive extends React.Component {
             <td>1</td>
             <td>Oscioso</td>
             <td>22-10-11 14:10:22</td>
-            <td><button class="pe-7s-help1 icon bg-night-fade"> </button></td> {/*Açoes */}
-            <td><button class="pe-7s-menu icon bg-night-fade"> </button></td> {/*Açoes */}          </tr>
+            <td>
+              <button class="pe-7s-help1 icon bg-night-fade"> </button>
+            </td>
+            <td>
+              <button class="pe-7s-menu icon bg-night-fade"> </button>
+            </td>
+          </tr>
         </tbody>
       </Table>
     );

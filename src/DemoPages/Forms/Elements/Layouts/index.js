@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react'
 
-import Tabs from 'react-responsive-tabs';
+// import Tabs from 'react-responsive-tabs';
 import { CardTitle } from 'reactstrap';
 
 import PageTitle from '../../../../Layout/AppMain/PageTitle';
