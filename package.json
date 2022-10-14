@@ -32,7 +32,7 @@
     "date-arithmetic": "^4.1.0",
     "date-fns": "^2.29.2",
     "dotenv": "^16.0.1",
-    "faker": "^6.6.6",
+    "faker": "^5.5.3",
     "google-map-react": "^2.2.0",
     "hamburgers": "^1.2.1",
     "https-browserify": "^1.0.0",
@@ -63,7 +63,7 @@
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.7",
     "react-scrollspy": "^3.4.3",
-    "react-simple-maps": "^3.0.0",
+    "react-simple-maps": "^1.0.0",
     "react-sizeme": "^3.0.2",
     "react-toastify": "^8.2.0",
     "react-transition-group": "^4.4.5",
@@ -81,7 +81,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react start",
+    "start": "react-app-rewired start",
     "build": "react run build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"

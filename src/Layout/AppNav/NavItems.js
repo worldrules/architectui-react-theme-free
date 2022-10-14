@@ -93,7 +93,7 @@ export const FormsNav = [
     },
     {
         icon: 'pe-7s-car',
-        label: 'Layouts',
+        label: 'Dispositivos',
         to: '#/forms/layouts',
     },
     {

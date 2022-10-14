@@ -1,8 +1,10 @@
 import React, {Fragment} from 'react'
 
 import Tabs from 'react-responsive-tabs';
+import { CardTitle } from 'reactstrap';
 
 import PageTitle from '../../../../Layout/AppMain/PageTitle';
+import TableResponsive from '../../../Tables/RegularTables/Examples/TableResponsive';
 
 // Examples
 
@@ -36,11 +38,15 @@ class FormElementsLayouts extends React.Component {
         return (
             <Fragment>
                 <PageTitle
-                    heading="Form Layouts"
-                    subheading="Build whatever layout you need with our ArchitectUI framework."
+                    heading="Dispositivos"
+                    subheading="Lista de Dispositivos"
                     icon="pe-7s-graph text-success"
                 />
-                <Tabs tabsWrapperClass="body-tabs body-tabs-layout" transform={false} showInkBar={true} items={getTabs()}/>
+                {/* <Tabs tabsWrapperClass="body-tabs body-tabs-layout" transform={false} showInkBar={true} items={getTabs()}/> */}
+                {/* mudando aqui */}
+                <CardTitle>Dispositivos</CardTitle>
+                <TableResponsive/>
+
             </Fragment>
         )
     }
