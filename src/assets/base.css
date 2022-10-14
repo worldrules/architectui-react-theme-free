@@ -12588,7 +12588,7 @@ button,
 }
 
 .bg-night-fade {
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%) !important;
+  background-image: linear-gradient(to top, #58d652 0%, #ffffff 100%) !important;
 }
 
 .bg-sunny-morning {
@@ -12681,7 +12681,8 @@ button,
 }
 
 .bg-royal {
-  background-image: linear-gradient(to right, #141e30, #243b55) !important;
+  /* background-image: linear-gradient(to right, #141e30, #243b55) !important; */
+  background-image: linear-gradient(to right, #515452, #000000) !important;
 }
 
 .bg-asteroid {
